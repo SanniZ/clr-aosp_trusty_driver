@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUILD=/lib/modules/5.2.9-825.native/build
+BUILD=/lib/modules/$(uname -r)/build
 TRUSTY=$BUILD/drivers/trusty
 
 # remove old .ko
